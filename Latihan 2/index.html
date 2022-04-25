@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;700;900&display=swap" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            spacing: {
+              13: "3.25rem",
+            },
+            fontFamily: {
+              inter: ["Inter"],
+            },
+            colors: {
+              bolupandan: "#34a323",
+            },
+          },
+        },
+      };
+    </script>
+    <title>Tailwind Utilities</title>
+    <style type="text/tailwindcss"></style>
+  </head>
+  <body>
+    <h1 class="text-center">Hello World!</h1>
+
+    <section class="mb-10">
+      <h2>Spacing</h2>
+      <div class="m-13">Margin</div>
+      <div class="p-8">Padding</div>
+    </section>
+
+    <section class="mb-10">
+      <h2>Sizing</h2>
+      <div class="w-32 h-32">Kotak 1</div>
+    </section>
+
+    <section class="mb-10 font-inter max-w-3xl mx-auto">
+      <h1 class="mb-4 text-4xl"><span class="bg-gradient-to-r from-blue-600 to-teal-400 bg-clip-text text-transparent">Typography</span></h1>
+      <div class="mb-4 text-lg bg-gradient-to-r from-slate-600 via-red-300 to-yellow-400">By Sandi,</div>
+      <p class="mb-4 bg-red-300">
+        Lorem ipsum dolor <a href="#" class="underline font-semibold">sit amet consectetur adipisicing elit.</a> Doloremque quidem quia accusamus quisquam reiciendis odio magni possimus laborum ipsa omnis provident inventore, autem sequi
+        sunt quod quaerat, eligendi sed et mollitia voluptate blanditiis velit ex. Veniam, dolorum distinctio suscipit quam et, dolorem cum consequuntur, nisi facilis est excepturi voluptatibus laudantium?
+      </p>
+      <blockquote class="mb-4 italic font-thin text-xl">
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste omnis, fugiat quidem, accusamus animi quod nemo incidunt cum, vel sed ducimus! Corporis quibusdam maiores totam culpa veniam et quas excepturi?"
+      </blockquote>
+      <p class="mb-4 bg-bolupandan">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit maiores vero, quisquam assumenda repellat odio soluta? Numquam rerum facilis voluptas? Et distinctio dolorem quia voluptas maxime harum, quod consequatur delectus
+        molestias soluta id laudantium cupiditate odit ea itaque voluptate aliquam cum quis. Deserunt assumenda dolorem corporis dolore cupiditate ab nulla voluptate optio soluta, laboriosam distinctio explicabo iusto dolor possimus
+        nesciunt, voluptatem voluptas! Modi excepturi iure earum aut ab minima blanditiis voluptate perspiciatis, velit eum, quo mollitia? Veniam molestias facere rem cum illum reprehenderit laborum exercitationem, tempora quidem delectus
+        debitis accusamus ea id nesciunt corrupti natus sunt assumenda vel beatae neque.
+      </p>
+    </section>
+
+    <section class="mb-96"></section>
+  </body>
+</html>
